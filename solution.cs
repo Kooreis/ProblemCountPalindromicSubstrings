@@ -6,5 +6,6 @@ class Program
     {
         Console.Write("Enter a string: ");
         string input = Console.ReadLine();
+        Console.WriteLine("Number of palindromic substrings: " + CountPalindromicSubstrings(input));
     }
 }
